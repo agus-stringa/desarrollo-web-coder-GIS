@@ -156,6 +156,7 @@ color: white !important;
     grid-template-rows: 800px;
     grid-template-columns: 1fr 2fr;
     margin-top: -50px;
+   
  }
 
  .grid-item-nosotros1 {
@@ -175,3 +176,84 @@ color: white !important;
         width: 20%;
 }
 }
+
+.primeros {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 67px;
+    margin-top: 70px;
+    padding: 10px; 
+    padding-bottom: 20px;
+ }
+ 
+ .card-ana :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.185);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-vale :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-fernando :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-maca :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-kevin :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-unete :hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .cont-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 67px;
+    margin-top: 70px;
+    padding: 10px; 
+    padding-bottom: 20px;
+ }
+ 
+ .card-legal:hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-accounting:hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+    background-color: #00000065;
+    position:relative
+ }
+
+ .card-notarial:hover {
+    font-family: "Raleway";
+    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+    background-color: #00000065;
+    position:relative
+ }
