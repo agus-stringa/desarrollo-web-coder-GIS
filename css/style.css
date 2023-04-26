@@ -10,13 +10,14 @@ body {
 }
 
 main {
-    margin: 0; 
+    margin: 0;
+    padding-top: -100px;
 }
 
 video {
     width: 100%;
   min-height: 500px;
-  margin: 0;
+  margin-top: -240px;
 }
 
 #logo-gis {
@@ -28,9 +29,11 @@ footer {
     padding-top: 54px;
     padding-bottom: 44px;
     padding-left: 71px;
+    margin-top: 527px;
 }
 
 .texto_blanco {
+  margin: 0;
     color: white;
     font-family: "Raleway"
 ;
@@ -38,16 +41,17 @@ footer {
 
 #instagram {
     width: 25px;
+    margin-left: 25px;
 }
 
 #linkedin {
     width: 25px;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 #logos-footer {
-    padding-top: 20px;
-    align-items: center;
+    padding-top: -20px;
+    display:flex
 }
 
 .form_texto {
@@ -78,23 +82,96 @@ main {
     color: #757576;
     font-family: "Raleway";
     font-weight: 800;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-right: 40px;
     font-size: 80px;
 }
 
 .txt-p {
-    color: #757576;
+    color: #ffffff;
     font-family: "Raleway";
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 50px;
     font-size: 23px;
-    padding-right: 1100px;
+    margin-left: 70px;
 }
 
 #img-nosotros {
-    width: 1000px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 800px;
+    padding-left:100px;
+    grid-column: 2;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}
+
+.bkg {
+background-color: #00000081!important;
+}
+
+.nav-tipo {
+color: white !important;
+}
+
+
+@media screen and (max-width: 600px) {
+    .formulario { width: 20%;
+}
+}
+
+@media screen and (min-width: 200px) {
+    .videobk { width: 200%;
+}
+}
+@media screen and (min-width: 480px) {
+    .videobk { width: 200%;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .videobk { width: 200%;
+}
+}
+
+@media screen and (min-width: 1025px) {
+    .videobk { width: 100%;
+}
+}
+
+.body-nosotros {
+    background-color:#adadad
+}
+
+.container-nosotros {
+   display: flex;
+}
+
+.container-nosotros {
+    display: grid;
+    grid-template-rows: 800px;
+    grid-template-columns: 1fr 2fr;
+    margin-top: -50px;
+ }
+
+ .grid-item-nosotros1 {
+    grid-column: 1;
+    padding-right: 200px;
+    padding-top: 170px;
+ }
+
+ @media screen and (min-width: 370px) {
+    .img-nosotros {
+        display:none
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .container-nosotros {
+        width: 20%;
+}
 }
