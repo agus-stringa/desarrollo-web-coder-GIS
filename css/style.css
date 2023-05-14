@@ -1,103 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+footer {
+  background-color: rgba(0, 0, 0, 0.7019607843);
+  padding-top: 54px;
+  padding-bottom: 44px;
+  padding-left: 71px;
+  margin-top: 527px;
+}
+
+#logos-footer {
+  padding-top: -20px;
+  display: flex;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-} 
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    margin: 0; 
+  margin: 0;
 }
 
 main {
-    margin: 0;
-    padding-top: -100px;
+  margin: 0;
+  padding-top: -100px;
 }
 
 video {
-    width: 100%;
+  width: 100%;
   min-height: 500px;
   margin-top: -240px;
 }
 
 #logo-gis {
-    width: 320px;
+  width: 320px;
 }
 
-footer {
-    background-color: #000000b3;
-    padding-top: 54px;
-    padding-bottom: 44px;
-    padding-left: 71px;
-    margin-top: 527px;
-}
-
-.texto_blanco {
+.texto_blanco, nav.tipo {
   margin: 0;
-    color: white;
-    font-family: "Raleway"
-;
+  color: white;
+  font-family: "Raleway";
+}
+
+.nav-tipo {
+  color: white !important;
 }
 
 #instagram {
-    width: 25px;
-    margin-left: 25px;
+  width: 25px;
+  margin-left: 25px;
 }
 
 #linkedin {
-    width: 25px;
-    margin-left: 25px;
-}
-
-#logos-footer {
-    padding-top: -20px;
-    display:flex
+  width: 25px;
+  margin-left: 25px;
 }
 
 .form_texto {
-    color: #878786;
-    font-family: "Raleway";
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+  color: #757576;
+  font-family: "Raleway";
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 main {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .form_botones {
-    color: #878786;
-    font-family: "Raleway";
-    font-weight: 600;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+  color: #757576;
+  font-family: "Raleway";
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .titulos {
-    color: #757576;
-    font-family: "Raleway";
-    font-weight: 800;
-    margin-left: 70px;
-    margin-right: 40px;
-    font-size: 80px;
+  color: #757576;
+  font-family: "Raleway";
+  font-weight: 800;
+  margin-left: 70px;
+  margin-right: 40px;
+  font-size: 80px;
 }
 
 .txt-p {
-    color: #ffffff;
-    font-family: "Raleway";
-    font-size: 23px;
-    margin-left: 70px;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-size: 23px;
+  margin-left: 70px;
 }
 
 #img-nosotros {
-    height: 800px;
-    padding-left:100px;
-    grid-column: 2;
+  height: 800px;
+  padding-left: 100px;
+  grid-column: 2;
 }
 
 video {
@@ -111,149 +113,144 @@ video {
 }
 
 .bkg {
-background-color: #00000081!important;
+  background-color: rgba(0, 0, 0, 0.5058823529) !important;
 }
-
-.nav-tipo {
-color: white !important;
-}
-
 
 @media screen and (max-width: 600px) {
-    .formulario { width: 20%;
+  .formulario {
+    width: 20%;
+  }
 }
-}
-
 @media screen and (min-width: 200px) {
-    .videobk { width: 200%;
-}
+  .videobk {
+    width: 200%;
+  }
 }
 @media screen and (min-width: 480px) {
-    .videobk { width: 200%;
+  .videobk {
+    width: 200%;
+  }
 }
-}
-
 @media screen and (min-width: 1024px) {
-    .videobk { width: 200%;
+  .videobk {
+    width: 200%;
+  }
 }
-}
-
 @media screen and (min-width: 1025px) {
-    .videobk { width: 100%;
+  .videobk {
+    width: 100%;
+  }
 }
-}
-
 .body-nosotros {
-    background-color:#adadad
+  background-color: #adadad;
 }
 
 .container-nosotros {
-   display: flex;
+  display: flex;
 }
 
 .container-nosotros {
-    display: grid;
-    grid-template-rows: 800px;
-    grid-template-columns: 1fr 2fr;
-    margin-top: -50px;
-   
- }
-
- .grid-item-nosotros1 {
-    grid-column: 1;
-    padding-right: 200px;
-    padding-top: 170px;
- }
-
- @media screen and (min-width: 370px) {
-    .img-nosotros {
-        display:none
-}
+  display: grid;
+  grid-template-rows: 800px;
+  grid-template-columns: 1fr 2fr;
+  margin-top: -50px;
 }
 
+.grid-item-nosotros1 {
+  grid-column: 1;
+  padding-right: 200px;
+  padding-top: 170px;
+}
+
+@media screen and (min-width: 370px) {
+  .img-nosotros {
+    display: none;
+  }
+}
 @media screen and (min-width: 1200px) {
-    .container-nosotros {
-        width: 20%;
+  .container-nosotros {
+    width: 20%;
+  }
 }
-}
-
 .primeros {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 67px;
-    margin-top: 70px;
-    padding: 10px; 
-    padding-bottom: 20px;
- }
- 
- .card-ana :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.185);
-    background-color: #00000065;
-    position:relative
- }
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 67px;
+  margin-top: 70px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
 
- .card-vale :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
-    background-color: #00000065;
-    position:relative
- }
+.card-ana :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.185);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .card-fernando :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
-    background-color: #00000065;
-    position:relative
- }
+.card-vale :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .card-maca :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
-    background-color: #00000065;
-    position:relative
- }
+.card-fernando :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .card-kevin :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
-    background-color: #00000065;
-    position:relative
- }
+.card-maca :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .card-unete :hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.200);
-    background-color: #00000065;
-    position:relative
- }
+.card-kevin :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .cont-servicios {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 67px;
-    margin-top: 70px;
-    padding: 10px; 
-    padding-bottom: 20px;
- }
- 
- .card-legal:hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
-    background-color: #00000065;
-    position:relative
- }
+.card-unete :hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
 
- .card-accounting:hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
-    background-color: #00000065;
-    position:relative
- }
+.cont-servicios {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 67px;
+  margin-top: 70px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
 
- .card-notarial:hover {
-    font-family: "Raleway";
-    box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
-    background-color: #00000065;
-    position:relative
- }
+.card-legal:hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
+
+.card-accounting:hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
+
+.card-notarial:hover {
+  font-family: "Raleway";
+  box-shadow: 1px 1px 30px -5px rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  position: relative;
+}
+
+/*# sourceMappingURL=style.css.map */
